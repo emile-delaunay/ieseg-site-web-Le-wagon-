@@ -1,0 +1,14 @@
+.btn-gold {
+  background-color: #e33a8f;
+  color: white;
+  padding: 16px 36px;
+  border-radius: 50px;
+  display: inline-block;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn-gold:hover {
+  background-color: #c6327c;
+}

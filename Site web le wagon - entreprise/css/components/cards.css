@@ -1,0 +1,46 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex-basis: 300px;
+  flex-grow: 1;
+  margin: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  background: white;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  border: 5px solid red !important;
+}
+
+.card div {
+  padding-left: 20px;
+  flex-grow: 1;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
